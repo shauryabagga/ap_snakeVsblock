@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/bg.png'); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label alignment="CENTER" layoutX="196.0" layoutY="87.0" text="MAIN MENU" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS Bold" size="32.0" />
+            </font>
+        </Label>
+        <Button fx:id="newGameButton" layoutX="218.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#showNewGame" prefHeight="52.0" prefWidth="164.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/buttonBGLarge.png'); -fx-background-color: none; -fx-background-size: 100%; -fx-background-position: 0px; -fx-cursor: hand;" text="NEW GAME">
+            <font>
+                <Font name="Comic Sans MS Bold" size="17.0" />
+            </font></Button>
+        <Button fx:id="resumeGameButton" layoutX="218.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#showResumeGame" prefHeight="52.0" prefWidth="164.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/buttonBGLarge.png'); -fx-background-color: none; -fx-background-size: 100%; -fx-background-position: 0px; -fx-cursor: hand;" text="RESUME">
+            <font>
+                <Font name="Comic Sans MS Bold" size="17.0" />
+            </font></Button>
+        <Button fx:id="leaderboardButton" layoutX="218.0" layoutY="262.0" mnemonicParsing="false" onMouseClicked="#showLeaderboard" prefHeight="52.0" prefWidth="164.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/buttonBGLarge.png'); -fx-background-color: none; -fx-background-size: 100%; -fx-background-position: 0px; -fx-cursor: hand;" text="LEADERBOARD">
+            <font>
+                <Font name="Comic Sans MS Bold" size="17.0" />
+            </font></Button>
+        <Button fx:id="settingsButton" layoutX="218.0" layoutY="322.0" mnemonicParsing="false" onMouseClicked="#showSettings" prefHeight="52.0" prefWidth="164.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/buttonBGLarge.png'); -fx-background-color: none; -fx-background-size: 100%; -fx-background-position: 0px; -fx-cursor: hand;" text="SETTINGS">
+            <font>
+                <Font name="Comic Sans MS Bold" size="17.0" />
+            </font></Button>
+        <Button layoutX="551.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#closeApp" prefHeight="38.0" prefWidth="34.0" style="-fx-background-color: none; -fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/closeButton.png'); -fx-background-size: 32px; -fx-background-repeat: no-repeat; -fx-cursor: hand;">
+            <font>
+                <Font size="16.0" />
+            </font></Button>
+        <Button fx:id="backToLoginRegister" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onMouseClicked="#showLoginRegisterScreen" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: none; -fx-cursor: hand; -fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/backButton.png'); -fx-background-size: 32px; -fx-background-repeat: no-repeat;">
+            <font>
+                <Font size="16.0" />
+            </font></Button>
+        <ImageView fitHeight="72.0" fitWidth="438.0" layoutX="81.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/logo.png');" />
+    </children>
+</AnchorPane>

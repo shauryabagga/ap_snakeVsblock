@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/bg.png'); -fx-background-size: 100% 100%; -fx-background-repeat: no-repeat;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <PasswordField fx:id="confirmPassword" layoutX="216.0" layoutY="273.0" prefHeight="31.0" prefWidth="187.0" promptText="Confirm Password..." style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font></PasswordField>
+        <Button fx:id="registerButton" layoutX="216.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#checkRegistration" prefHeight="46.0" prefWidth="187.0" style="-fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/buttonBGLargeSlim.png'); -fx-background-color: none; -fx-background-size: 100%; -fx-background-repeat: no-repeat; -fx-background-position: 0px; -fx-cursor: hand;" text="REGISTER">
+            <font>
+                <Font name="Comic Sans MS Bold" size="17.0" />
+            </font></Button>
+        <PasswordField fx:id="password" layoutX="216.0" layoutY="219.0" prefHeight="31.0" prefWidth="187.0" promptText="Password..." style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font>
+        </PasswordField>
+        <TextField fx:id="username" layoutX="217.0" layoutY="166.0" prefHeight="31.0" prefWidth="187.0" promptText="Username..." style="-fx-background-color: rgba(255, 255, 255, 0.2); -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font>
+        </TextField>
+        <Label alignment="CENTER" layoutX="227.0" layoutY="87.0" text="REGISTER" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS Bold" size="32.0" />
+            </font>
+            <effect>
+                <Glow level="0.5" />
+            </effect>
+        </Label>
+        <Button layoutX="551.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#closeApp" prefHeight="38.0" prefWidth="34.0" style="-fx-background-color: none; -fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/closeButton.png'); -fx-background-size: 32px; -fx-background-repeat: no-repeat; -fx-cursor: hand;">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="backToLoginRegister" layoutX="12.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#showLoginRegisterScreen" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: none; -fx-cursor: hand; -fx-background-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/backButton.png'); -fx-background-size: 32px; -fx-background-repeat: no-repeat;">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="72.0" fitWidth="438.0" layoutX="81.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: url('https://bitbucket.org/karan2dec/ap-game-images/downloads/logo.png');" />
+    </children>
+</AnchorPane>
