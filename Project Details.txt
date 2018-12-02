@@ -1,0 +1,5 @@
+Project: Snake vs Block
+
+Members:
+1. Shaurya Bagga (2017104)
+2. Karan Tandon (2017058)
